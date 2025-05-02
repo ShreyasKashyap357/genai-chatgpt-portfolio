@@ -3,8 +3,8 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
   output: "export",
-  basePath: isProd ? "/genai-chatgpt-portfolio" : "",
-  assetPrefix: isProd ? "/genai-chatgpt-portfolio/" : "",
+  basePath: isProd ? "/portfolio-certificates" : "",
+  assetPrefix: isProd ? "/portfolio-certificates/" : "",
 };
 
 export default nextConfig;

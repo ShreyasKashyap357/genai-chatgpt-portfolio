@@ -12,7 +12,7 @@ type Certificate = {
 
 export function CertificateCard({ title, issuer, imageUrl, link, duration }: Certificate) {
   return (
-    <Card className="w-full max-w-[300px] mx-auto">
+    <Card className="w-full max-w-[350px] mx-auto">
       <CardHeader>
         <CardTitle className="text-lg">{title}</CardTitle>
       </CardHeader>
@@ -22,12 +22,12 @@ export function CertificateCard({ title, issuer, imageUrl, link, duration }: Cer
             src={imageUrl}
             alt={title}
             fill
-            className="object-contain rounded-md"
+            className="object-cover rounded-md"
             unoptimized
           />
         </div>
-        <p className="mt-2 text-sm">Issued by: {issuer}</p>
-        {duration && <p className="mt-1 text-sm">Duration: {duration}</p>}
+        <p className="mt-2 text-sm text-muted-foreground">Issued by: {issuer}</p>
+        {duration && <p className="mt-1 text-sm text-muted-foreground">Duration: {duration}</p>}
         {link && (
           <Button asChild className="mt-4 w-full">
             <a href={link} target="_blank" rel="noopener noreferrer">

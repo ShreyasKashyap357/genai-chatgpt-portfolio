@@ -2,7 +2,7 @@
   "name": "genai-chatgpt-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ShreyasKashyap357.github.io/genai-chatgpt-portfolio",
+  "homepage": "https://ShreyasKashyap357.github.io/portfolio-certificates",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

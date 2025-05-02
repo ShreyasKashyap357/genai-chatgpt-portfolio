@@ -1,4 +1,4 @@
-export const certificates = [
+export const genaiCertificates = [
     {
       title: "Introduction to Generative AI",
       issuer: "Coursera",
@@ -83,4 +83,13 @@ export const certificates = [
       link: "https://www.coursera.org/account/accomplishments/verify/PN54KSFTWGFH",
       duration: "April 2024 - May 2024"
     }
+  ];
+  export const daaCertificates = [
+    // Add DAA certificates here
+  ];
+  export const nptelCertificates = [
+    // Add NPTEL certificates here
+  ];
+  export const googleCertificates = [
+    // Add Google Data Analytics certificates here
   ];
